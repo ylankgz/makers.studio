@@ -88,6 +88,14 @@ a:not([href]):not([tabindex]) {
   background-color: #691cff;
 }
 
+.shape-purple {
+  height: 1px;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 60px;
+  background-color: white;
+}
+
 .padding-none {
   padding: 0px;
 }
@@ -325,9 +333,9 @@ hr {
 /* ==========================================================================
   8. Features Section Style
    ========================================================================== */
-#features {
-  background: #fff;
-}
+/*#features {*/
+/*  background: #fff;*/
+/*}*/
 
 #features .icon {
   display: inline-block;
@@ -1274,7 +1282,34 @@ textarea {
 
 /*cta
 */
-#cta{background: ;}
+/*#cta{background: ;}*/
+
+.contact-form-area .address li {
+  margin-bottom: 20px;
+}
+
+.contact-form-area .address li a {
+  color: #666666;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.contact-form-area .address li a:hover {
+  color: #691cff;
+}
+
+.contact-form-area .address li a i {
+  font-size: 22px;
+  width: 32px;
+  vertical-align: middle;
+  height: 36px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+  line-height: 32px;
+}
 
 /* Footer Area Start */
 .footer-area {
@@ -1399,8 +1434,8 @@ textarea {
   background: #3b5999;
 }
 
-.social-icon .twitter:hover {
-  background: #4A9CEC;
+.social-icon .whatsapp:hover {
+  background: #25D366;
 }
 
 .social-icon .instagram:hover {
